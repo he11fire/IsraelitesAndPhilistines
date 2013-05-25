@@ -105,7 +105,7 @@ package
 			
 			if (collide("enemy", x, y))
 			{
-				image.color = 0xff0000;
+				image.color = 0x0;
 				if (mCanShoot) {
 					mCanShoot = false;
 					shoot.play();
