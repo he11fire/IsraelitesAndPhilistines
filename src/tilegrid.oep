@@ -1,0 +1,22 @@
+<project>
+	<name>FlashPunkThing</name>
+	
+	<settings>
+		<defaultWidth>500</defaultWidth>
+		<defaultHeight>400</defaultHeight>
+	</settings>
+	
+	<tilesets>
+		<tileset name="tiles" image="../lib/tiles.png" tileHeight="32" tileWidth="32" />
+	</tilesets>
+	
+	<objects>
+		<object name="playerStart" image="../lib/playerstart.png" height="32" width="32" limit="1" />
+	</objects>
+	
+	<layers>
+		<tiles name="OurTiles" gridSize="32" />
+		<objects name="objects" gridSize="32" />
+	</layers>
+	
+</project>
